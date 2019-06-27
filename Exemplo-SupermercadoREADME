@@ -1,4 +1,15 @@
-Exemplo utilizando SO Ubuntu
+-Requisitos necessários:
+
+1- Interpretador Python
+
+-Instalando intepretador Python no ubuntu:
+
+sudo apt-get install python3.5
+
+-Módulos do Projeto:
+Projeto esta divido em três módulos que são a classe Supermecado.py Produto.Py e Principal.py que é responsável pela iteração com o usuário.
+
+-Exemplo utilizando SO Ubuntu
 
 1- Execute o arquivo Principal.py
 	python Principal.py
