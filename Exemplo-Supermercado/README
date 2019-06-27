@@ -1,0 +1,61 @@
+-Requisitos necessários:
+
+1- Interpretador Python
+
+-Instalando intepretador Python no ubuntu:
+
+sudo apt-get install python3.5
+
+-Módulos do Projeto:
+Projeto esta divido em três módulos que são Supermecado.py Produto.Py e Principal.py que é responsável pela iteração com o usuário.
+
+-Exemplo utilizando SO Ubuntu
+
+1- Execute o arquivo Principal.py
+	python Principal.py
+2-Ao executar ira abrir a tela inicial do nosso supermercado como uma lista de comandos:
+========================Comandos================================
+addProd - Para adicionar um produto no Estoque
+rm - Para remover um Produto do Estoque
+estoque - Para exibir o Estoque
+addPedido - Para adicionar um Pedido
+pedidos - para mostrar a lista de Pedidos 
+==============================================================
+
+3- Para adicionar um produto digite addProd, e entao ira pedir o nome do produto, o preco e qtd do produto 
+Exemplo: 
+Digite um comando:addProd
+==============================================================
+====================Cadastrando Produtos=====================
+Nome do Produto:feijao
+Preco do Produto:3.2
+Quantidade do Produto:34
+==============================================================
+4-Mostrando o estoque
+Exemplo:
+Digite um comando:estoque
+==============================================================
+====================Cadastrando Produtos=====================
+==================== Estoque ========================
+|Desc||Preço||Qtd|
+('arroz', 2.5, 45)
+|Desc||Preço||Qtd|
+('feijao', 3.2, 34)
+
+5- Para adicionar um Pedido
+Digite um comando:addPedido
+==============================================================
+==============================================================
+Nome do Produto:arroz
+Qtd do produto:5
+Forma de Pagamento:dinheiro
+Pedido Aceito
+==============================================================
+6 -Mostrando a lista de pedidos
+Digite um comando:pedidos
+==============================================================
+==============================================================
+=============== Lista de Pedidos =================
+ |Desc| |Qtd|
+('arroz', 5)
+================================================== 
