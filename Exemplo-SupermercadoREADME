@@ -7,7 +7,7 @@
 sudo apt-get install python3.5
 
 -Módulos do Projeto:
-Projeto esta divido em três módulos que são a classe Supermecado.py Produto.Py e Principal.py que é responsável pela iteração com o usuário.
+Projeto esta divido em três módulos que são Supermecado.py Produto.Py e Principal.py que é responsável pela iteração com o usuário.
 
 -Exemplo utilizando SO Ubuntu
 
